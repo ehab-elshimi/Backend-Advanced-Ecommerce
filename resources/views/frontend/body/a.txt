@@ -1,0 +1,16 @@
+// public function adminLogin(Request $request){
+    //     $request->validate([
+    //         'email'   =>  'required|email',
+    //         'password'   =>  'required'
+    //     ]);
+    //     $data = Admin::where('email','=',$request->email);
+    //     if($data){
+    //         if(Hash::check($request->password,$data->password)){
+    //             return redirect()->route('admin.profile');
+    //         }else{
+    //             return redirect()->back();
+    //         }
+    //     }else{
+    //         return redirect()->back();
+    //     }
+    // }
